@@ -1,0 +1,158 @@
+html{
+    width: 100%;
+    background: #222;
+    color: #ccc;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+
+    text-align: center;
+}
+
+body{
+    font-size: 14px;
+    font-weight: 300;
+    color: #aaa;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #0fc;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #0fc;
+    margin-top: 48px;
+    margin-left: 0;
+    text-align: right;
+    width: 400px;
+    border-bottom: dotted 1px #097;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0fc;
+    letter-spacing: 3px;
+}
+
+h4 {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #888;
+
+    margin-top: -16px;
+}
+
+a {
+    color: #f0c;
+}
+
+::selection {
+    color: #0fc;
+    background: #999;
+}
+
+input, button {
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+    background: #111;
+    border: solid 1px #666;
+    outline: none;
+    padding: 8px;
+    text-align: left;
+    margin: 0px;
+
+    transition-duration: 0.2s;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 18px;
+    color: #888;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+}
+
+ul button{
+    color: #aaa;
+    background: #222;
+
+    transition-duration: 0.2s;
+}
+
+button:hover, input:focus{
+    /*color: #0fc;*/
+    border: solid 1px #0fc;
+
+    transition-duration: 0.2s;
+}
+
+button:active {
+    color: #222;
+    background: #0fc;
+
+    transition-duration: 0.00s;
+}
+
+#titlebar {
+    margin: -8px -8px;
+    padding: 2px;
+    background: #111;
+    border-bottom: solid 1px #097;
+}
+
+#todoapp {
+    margin: 10px 128px;
+    padding: 8px 32px;
+    background: #333;
+    border: solid 1px #097;
+    text-align: left;
+}
+
+#todoapp input{
+    background: #333;
+    margin: auto;
+    width: 95%;
+    font-size: 18px;
+    border: dotted 1px #444;
+}
+
+#todoapp input:hover{ border: dotted 1px #097; }
+#todoapp input:focus{
+    background: #222;
+    border: solid 1px #0fc;
+}
+
+#todo-app {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+}
+
+#todo-items ul {
+    position: relative;
+    font-size: 16px;
+
+    background: #2c2c2c;
+    margin: 0px 10px 0px -20px;
+    padding: 12px;
+    /*border-bottom: solid 1px #222;*/
+}
+#todo-items ul:first-child {
+    /*border-top: solid 1px #222;*/
+}
