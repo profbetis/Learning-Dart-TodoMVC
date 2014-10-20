@@ -21,11 +21,23 @@
     
     <h2>TodoMVC (in Dart)</h2>
     
-    <div id="todoapp">
-      <h3>Today's Tasks</h3>
-      <p style="font-size:18px;">+ </style><input id="todo-input" type="text" placeholder="Add a new item here"></p>
-      <ul id="todo-items">
-      </ul>
+    <div id="todo-app">
+        <ul id="todo-lists">
+          <li>
+              <div id="todo-list">
+                  <h3>Today's Tasks</h3>
+                  
+                  <ul id="todo-items">
+                  </ul>
+                  
+                  <p style="font-size:18px;">+ </style>
+                  <input id="todo-new-item" type="text" placeholder="Add a new item here"></p>
+              </div>
+          </li>
+        </ul>
+        
+        <p style="font-size:18px;">+ </style>
+        <input id="todo-new-list" type="text" placeholder="Add a new todo list here"></p>
     </div>
 
   </body>
