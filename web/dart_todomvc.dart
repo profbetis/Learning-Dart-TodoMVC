@@ -1,4 +1,6 @@
 import 'dart:html';
+import 'dart:async';
+import 'package:polymer/polymer.dart';
 
 InputElement todoItemAdd;
 InputElement todoListAdd;
@@ -28,4 +30,11 @@ void addList( Event e ){
     newList.text = "" + todoListAdd.value;
     todoListAdd.value = '';
     todoLists.children.add(newList);
+}
+
+@CustomTag('todo-list')
+class todoList extends PolymerElement {
+    @observable String name='polymer-test-name';
+    
+    todoList.created() : super.created();
 }

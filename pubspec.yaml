@@ -1,4 +1,13 @@
+polymer: any
+shadow_dom: any
+
 name: dart_todomvc
 description: A sample web application
 dependencies:
   browser: any
+  todo-list: any
+
+name: todo-list
+description: A list of items with flags; able to rename and delete elements
+dependencies:
+  polymer: ">=0.15.1 <0.16.0"
